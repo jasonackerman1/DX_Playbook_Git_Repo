@@ -4,4 +4,8 @@
 _notes/
 /bower_components/
 /node_modules/
-/custom/whatleaderssay/
+/custom/whatleaderssay/css/
+/custom/whatleaderssay/img/
+/custom/whatleaderssay/js/
+/custom/whatleaderssay/scss/
+/custom/whatleaderssay/src/
