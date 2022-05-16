@@ -4,10 +4,10 @@
 _notes/
 /bower_components/
 /node_modules/
-/custom/whatleaderssay/img/
-/custom/whatleaderssay/js/
 /custom/whatleaderssay/scss/
 /custom/whatleaderssay/src/
 /custom/whatleaderssay/css/modules/
 /custom/whatleaderssay/css/addons-pro/
 /custom/whatleaderssay/css/addons/
+/custom/whatleaderssay/js/modules/
+/custom/whatleaderssay/js/addons/
