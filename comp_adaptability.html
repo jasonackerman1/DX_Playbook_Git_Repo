@@ -33,6 +33,26 @@
     <style></style>
       
       
+    <!-- Redirect Background Image Css Code Begin -->
+	
+<style>
+bodybg {
+  background-image: url('https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/Coming_Soon_Background.jpg?raw=true');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+}
+</style>
+	
+<!-- Redirect Background Image CSS Code End -->
+	
+<!-- Refresh/Redirect Page Begin -->
+<script language="JavaScript" type="text/javascript">
+        setTimeout("window.history.go(-1)",9000);
+</script>
+<!-- Refresh/Redirect Page End -->
+      
+      
   </head>
 
   <body>
@@ -499,134 +519,57 @@
                 <!-- What is Adaptability Header End -->
 
                 <div class="row justify-content-center" style="padding-top: 60px;">
+                  <section style="justify-content: center; margin-top: 60px" >
+                    <article style="background-image: url('https://github.com/BradleyAPierce/DX_Playbook_Images/blob/main/Coming_Soon_BackgroundV2.jpg?raw=true'); background-repeat: no-repeat; background-attachment: fixed;  background-size: cover;">
+                      <p> . </p>
+                      <br>
+                      <h1 style="margin-top: 90px; color: white;  text-align: center"> <b> We are developing the Adaptability Deep Dive Page! </b></h1>
+                      <br>
+                      <br>
+                      <div style="margin-top: 90px; color: white;  text-align: center">
+                        <h3> You will be redirected to previous page = <span id="timer"> </span></h3>
+                      </div>
+                      <script>  
+		  
+		  document.getElementById('timer').innerHTML =
+		  000 + ":" + 10;
+		startTimer();
+
+		function startTimer() {
+		  var presentTime = document.getElementById('timer').innerHTML;
+		  var timeArray = presentTime.split(/[:]+/);
+		  var m = timeArray[0];
+		  var s = checkSecond((timeArray[1] - 1));
+		  if(s==59){m=m-1}
+		  //if(m<0){alert('timer completed')}
+
+		  document.getElementById('timer').innerHTML =
+			m + ":" + s;
+		  console.log(m)
+		  setTimeout(startTimer, 1000);
+		}
+
+		function checkSecond(sec) {
+		  if (sec < 10 && sec >= 0) {sec = "0" + sec}; // add zero in front of numbers < 10
+		  if (sec < 0) {sec = "59"};
+		  return sec;
+		}
+
+
+		          </script>
+                      <p> . </p>
+                    </article>
+                  </section>
                     
-                    <!-- Place Content here begin -->
+                    <!-- Coming Soon Content here begin -->
                     
-                    <table class="table" style="background: #7E72B5; color: white">
-                      <thead>
-                        <tr>
-                        <th scope="col-md-4" style="text-align: left"> <h5> Adaptability </h5> </th>
-                        <th scope="col-md-8"> <h5> Deep Dive </h5> </th>
-                        </tr>
-                      </thead>
-                      <tbody style="text-align: left">
-                        <tr>
-                          <th scope="row"> Definition </th>
-                          <td>Adapts quickly to changing circumstances by flexing own approach and behaviour towards the desired goal. Responds effectively to change demonstrating flexibility, agility and resilience. </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"> Behavior </th>
-                          <td>
-                             <ul>
-                             <li>Understands the need for change and is willing and able to adapt rapidly as required </li>
-                             <li>Is open to new challenges and adapts own ideas or perceptions in response to new technologies, evolving customer needs and business changes </li>
-                             <li> Demonstrates positive attitude, resilience and openness to change </li>
-                             </ul>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"> Mindset </th>
-                          <td> 
-                           <h6> We need less of this Mindset </h6>
-
-                          <p>Sees change as a problem: &ldquo;This change will not work&#59; this is the way we have always done here&ldquo; </p> 
-
-                          <p> &ldquo;I cannot share my work with my colleagues yet as it is not 100% ready&ldquo; </p> 
-
-                          <p> &ldquo;Why do I need to change and adapt? They are the ones who need to change&ldquo; </p> 
-
- 
-                          <h6> We need more of this Mindset </h6>
-
-                          <p> Change is perceived as an opportunity to try or learn something new </p>
-
-                          <p> &ldquo;Working on a concept that is 80% ready is fine, I can share, get feedback and enhance &ldquo; on the go&ldquo; &ldquo;  </p>
-
-                          <p> &ldquo;I didn&#39;t see that coming but let me think about it and understand how to adapt&ldquo; </p>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"> Keywords </th>
-                          <td>
-                          <ul>
-                          <li>  &#35;Change </li>
-                          <li>  &#35;Resilience </li>
-                          <li>  &#35;Agility </li>     
-                          </ul>
-                          </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"> What is in it for Me / My Team / KM </th>
-                          <td>
-                          <ul>
-                          <li> <b> Me: </b> Learn new skills, build resilience, be ready for today and tomorrow </li>
-                          <li> <b> My Team: </b> Help others to understand and navigate change </li>
-                          <li> <b> KM: </b> Increase time to market, response to customers, support and enable Digital Transformation </li>
-                          </ul>
-                          </td>
-                        </tr>
-                        <tr>
-                        <th scope="row"> Real People Stories </th>
-                        <td>
-                        <p> <h6> Story 1. Adaptability </h6> </p>
-
-                        <p> <b> Situation: </b> One colleague was working with a new client to understand their business needs and how they could work with them to provide support. The needs of the client were not clearly defined/identified at the beginning of the project. Due to this, the needs of the client changed a number of times throughout the project which meant it was difficult for the colleague to stick to their plan and agreed deliverables. </p>
-
-                        <p> <b> Behavior: </b> Rather than fearing or becoming annoyed by continual changes and seeing this as a problem. The colleague involved other members of their team and discussed the ideas that they had to adapt. Their ideas weren&#39;t fully ready to present to the client but the concept of what they wanted to do was partly complete, presenting it to their team at this point was beneficial as they could shape the plan to make it more robust. </p>
-
-                        <p> <b> Outcome and Learnings: </b> The customer was happy and a resolution was met. By being proactive and embracing change, it allowed the colleague to react to the customer&#39;s needs more timely. It also meant that a good relationship with the customer was built and it generated future work. </p>
-                        </td>
-                        </tr>
-                        <tr>
-                          <th scope="row"> Anchors/Proficiency Levels &#40;Builds upon previous levels&#41;  </th>
-                          <td>
-                          <ol>
-                          <li> 
-                              <a data-mdb-toggle="tooltip" title="Level 1: Has a fundamental understanding of the competency and may need some guidance on how it applies to own role and responsibilities."> <b> Emerging <sup> <b>&#9432; </b> </sup> </b> </a> 
-                          </li>
-                            <ul>
-                              <li> Demonstrates positive attitude and resilience towards change </li>
-                              <li> Reconsiders own ideas and perspective and adapts own activites and behavior to quickly meet and support changing demands </li>
-                              <li> Understands that change is constant and has an impact on the business environment, own tasks, policies, procedures and strategy </li>
-                              <li> Flexes own approach and behaviour when required by changing cirumstances to get a task done and/or meet goals </li>
-                            </ul> <br>  
-                              
-                          <li> 
-                              <a data-mdb-toggle="tooltip" title="Level 2: Demonstrates this competency independently in a variety of situations at work and in somewhat challenging circumstances."> <b> Evolving <sup> <b>&#9432; </b> </sup> </b> </a> 
-                          </li>
-                            <ul>
-                                <li> Adapts to new situations and circumstances by adopting new methods, processes and/or tools </li>
-                                <li> Adjusts actions flexibly if needed and delivers solutions for overcoming obstacles </li>
-                                <li> Responds flexibly and effectively to changing customer demands, new technologies and business trends, and working environments, while collaborating with others </li>
-                                <li> Evaluates and decides what approach to take based on the demands of the situation or the needs of the person&#59;  this may involve changing guidelines, processes, outcomes, etc. </li>                   
-                            </ul> <br>
-                              
-                          <li> 
-                            <a data-mdb-toggle="tooltip" title="Level 3: Consciously practices, assists, consults and/or mentors others in the application of the competency in complex and challenging situations."> <b> Influencing <sup> <b>&#9432; </b> </sup> </b> </a>  
-                          </li>
-                            <ul>
-                              <li> Analyses the impact of change and initiates it without losing sight of the strategy and goals; changes direction rapidly to attain the objectives </li>
-                              <li> Questions and revisits own ideas and approaches, and changes strategy when existing approach proves ineffective </li>
-                              <li> Recognises resistance to change and encourages others to flex their approach and behaviour whilst explaining to them the benefits of change </li>
-                              <li> Communicates change with optimism and a sense of urgency whilst supporting others throughout it </li>
-                            </ul> <br>
-                              
-                          <li> 
-                           <a data-mdb-toggle="tooltip" title="Level 4: Makes a positive impact within the organization in very complex and challenging situations. Inspires and mobilizes others when applying the competency."> <b> Transforming <sup> <b>&#9432; </b> </sup> </b> </a>   
-                          </li>
-                            <ul>
-                              <li> Anticipates, evaluates and adapts to change by continuously scanning the internal and external business environment, market and technology trends </li>
-                              <li> Enthusiastically promotes change and bounces back in the face of barriers or obstacles </li>
-                              <li> Cleary articulates a sense of urgency to change, and successfully manages resistance through engaging others, while celebrating quick wins </li>
-                              <li> Even in the most rapidly changing ambiguous situations, is willing to reconsider strongly held ideas to positively contribute towards new demands </li>
-                            </ul> <br>   
-                          </ol>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
                     
-                    <!-- Place Content here end -->
+                    
+                    
+                    
+                    
+                    
+                    <!-- Coming Soon Content here end -->
                     
                   
                 </div>
